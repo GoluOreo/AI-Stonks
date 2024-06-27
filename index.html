@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+      <title>AI Stonks</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body class="container">
+    <center>
+        <h1>AI Stonks</h1>
+        <br>
+        <h3>Using neural networks and a robotic concept of natural selection, called reproduction, we will create an AI that is designed to fit your needs. </h3>
+    </center>
+    <br>
+    <span>
+        <p>Enter list of variables</p>
+        <input id="list" type="text">
+    </span>
+    <br>
+    <span >
+        <p id="generation">There is 4 AI/neural networks per generation</p>
+    </span>
+    <br>
+    <span>
+        <h4 id="data">Loading...</h4>
+    </span>
+    <br>
+        <script src="neuralnetwork.js"></script>
+    <br>
+    <h4>
+        <button class="btn btn-success" onclick="loadAssets()">Start</button>
+    </h4>
+    <br>
+    <script src="neuralnetwork.js"></script>
+</body>
+</html>

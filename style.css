@@ -1,0 +1,16 @@
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+canvas {
+  box-shadow: 3 3 3px goldenrod;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 375px;
+}
